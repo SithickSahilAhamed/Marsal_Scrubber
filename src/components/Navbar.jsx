@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
+import marsalLogo from '../assets/marsal-logo.png';
 
 const navLinks = [
   { label: 'Products', href: '#products' },
@@ -12,7 +13,7 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const WHATSAPP_NUMBER = '919445880150';
+const WHATSAPP_NUMBER = '918870410181';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -43,15 +44,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#hero" onClick={() => handleNav('#hero')} className="flex items-center gap-2 cursor-pointer">
-            <div className="w-9 h-9 bg-[#F4D000] rounded-lg flex items-center justify-center shadow-md">
-              <span className="font-black text-[#111827] text-sm">M</span>
-            </div>
+            <img src={marsalLogo} alt="MARSAL logo" className="w-10 h-10 rounded-full object-cover shadow-md" />
             <div>
               <p className={`font-black text-lg leading-none tracking-tight ${scrolled ? 'text-gray-900' : 'text-white'}`}>
                 MARSAL
               </p>
-              <p className={`text-[10px] leading-none font-medium ${scrolled ? 'text-[#1D4ED8]' : 'text-yellow-300'}`}>
-                Sparkle Clean in Seconds
+              <p className={`text-[10px] leading-none font-medium ${scrolled ? 'text-gray-500' : 'text-yellow-300'}`}>
+                Mahakal industries
               </p>
             </div>
           </a>

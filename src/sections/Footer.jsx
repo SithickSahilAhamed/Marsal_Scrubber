@@ -1,7 +1,7 @@
 import { FaWhatsapp, FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
 import { FiMail, FiPhone } from 'react-icons/fi';
 
-const WHATSAPP_NUMBER = '919445880150';
+const WHATSAPP_NUMBER = '918870410181';
 
 const quickLinks = [
   { label: 'Products', href: '#products' },
@@ -87,11 +87,11 @@ export default function Footer() {
             <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-5">Contact Us</p>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+919999999999" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group">
+                <a href="tel:+918870410181" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group">
                   <span className="w-8 h-8 bg-white/10 group-hover:bg-[#1D4ED8] rounded-lg flex items-center justify-center transition-colors">
                     <FiPhone size={14} />
                   </span>
-                  <span className="text-sm">+91 99999 99999</span>
+                  <span className="text-sm">+91 88704 10181</span>
                 </a>
               </li>
               <li>

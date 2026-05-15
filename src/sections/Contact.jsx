@@ -5,14 +5,14 @@ import { FiPhone, FiMail, FiMapPin, FiSend, FiCheck } from 'react-icons/fi';
 import SectionHeader from '../components/SectionHeader';
 import AnimatedSection from '../components/AnimatedSection';
 
-const WHATSAPP_NUMBER = '919445880150';
+const WHATSAPP_NUMBER = '918870410181';
 
 const contactInfo = [
   {
     icon: FiPhone,
     label: 'Phone',
-    value: '+91 99999 99999',
-    href: 'tel:+919999999999',
+    value: '+91 88704 10181',
+    href: 'tel:+918870410181',
     color: 'bg-blue-50 text-blue-700',
   },
   {
@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: FaWhatsapp,
     label: 'WhatsApp',
-    value: '+91 99999 99999',
+    value: '+91 88704 10181',
     href: `https://wa.me/${WHATSAPP_NUMBER}`,
     color: 'bg-green-50 text-green-700',
   },

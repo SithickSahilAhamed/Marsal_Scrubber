@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';
 
-const WHATSAPP_NUMBER = '919445880150';
+const WHATSAPP_NUMBER = '918870410181';
 
 export default function WhatsAppFloat() {
   return (

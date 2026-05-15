@@ -4,7 +4,7 @@ import { FiArrowRight, FiStar } from 'react-icons/fi';
 import scrubberImg from '../assets/image.png';
 import scrubpadsImg from '../assets/image1.png';
 
-const WHATSAPP_NUMBER = '919445880150';
+const WHATSAPP_NUMBER = '918870410181';
 
 function FloatingShape({ className, delay = 0 }) {
   return (
